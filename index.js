@@ -6,6 +6,7 @@ function theBeatlesPlay (musicians, instruments) {
     let sentence = `${musicians[i]} plays ${instruments[i]}`;
     x.push(sentence);
   }
+  return x
 }
 
 function johnLennonFacts(facts) {
